@@ -1,0 +1,2 @@
+"""CryptoDesk application package."""
+

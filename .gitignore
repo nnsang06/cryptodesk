@@ -1,0 +1,48 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+
+# Cryptographic secrets
+keys/
+private_keys/
+*.key
+*_private.pem
+private.pem
+
+# Generated encrypted/output files
+*.enc
+
+# Build output
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.log
